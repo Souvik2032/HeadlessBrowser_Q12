@@ -25,8 +25,6 @@ public class LoginTest {
 
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 
-        Thread.sleep(3000);
-
         driver.findElement(By.name("username")).sendKeys("Admin");
 
         driver.findElement(By.name("password")).sendKeys("admin123");
